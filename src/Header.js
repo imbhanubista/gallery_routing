@@ -5,7 +5,7 @@ const Header=(props)=>{
     return(
         <>
         <div className="header">
-            <Link to="/" ><span class="home-element"><FaHome className="icon" size={30}/> <span>Home</span></span></Link>
+            <Link to="/" ><span class="home-element"><FaHome className="icon" size={30}/> <span>Go Home</span></span></Link>
             {props.title} 
         {
             props.title === "Food Gallery"? 
